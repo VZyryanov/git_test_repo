@@ -1,0 +1,70 @@
+Index: test_file.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_file.txt b/test_file.txt
+deleted file mode 100644
+--- a/test_file.txt	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
++++ /dev/null	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
+@@ -1,1 +0,0 @@
+-Hello World!
+\ No newline at end of file
+Index: smth_to_ignor.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/smth_to_ignor.txt b/smth_to_ignor.txt
+deleted file mode 100644
+--- a/smth_to_ignor.txt	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
++++ /dev/null	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
+@@ -1,1 +0,0 @@
+-this won't be addeds
+\ No newline at end of file
+Index: math_test.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/math_test.js b/math_test.js
+deleted file mode 100644
+--- a/math_test.js	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
++++ /dev/null	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
+@@ -1,6 +0,0 @@
+-function fibonacci(num) {
+-    if (num < 2) return num;
+-    return fibonacci(num - 1) + fibonacci(num - 2);
+-}
+-
+-console.log(fibonacci(5))
+\ No newline at end of file
+Index: sort_test.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sort_test.js b/sort_test.js
+deleted file mode 100644
+--- a/sort_test.js	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
++++ /dev/null	(revision 11b50128b59a9376656209ea52a92e012cdd7130)
+@@ -1,18 +0,0 @@
+-function bubbleSortConcept2(arr) {
+-    let swapped;
+-
+-    do {
+-        swapped = false;
+-        console.log(arr);
+-        arr.forEach((item, index) => {
+-            if (item > arr[index + 1]) {
+-                let temp = item;
+-                arr[index] = arr[index + 1];
+-                arr[index + 1] = temp;
+-                swapped = true;
+-            }
+-        })
+-    } while (swapped);
+-}
+-
+-bubbleSortConcept2([5, 4, 9, 1, 3 ,7])
+\ No newline at end of file
