@@ -4,3 +4,5 @@ function rec_feb(num) {
 }
 
 console.log(rec_feb(5))
+
+//измкенение тест-2
